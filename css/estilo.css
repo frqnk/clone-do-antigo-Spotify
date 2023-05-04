@@ -6,6 +6,11 @@
 
 /* Layout
 -----------------------------*/
+html,
+body,
+#home {
+    height: 100%;
+}
 body {
     background:
         url(../imagens/capa.png),
@@ -39,7 +44,9 @@ nav.navbar-transparent {
 
 /* Capa
 -----------------------------*/
-
+.capa {
+    text-align: center;
+}
 
 /* Estrutura conteúdos
 -----------------------------*/
@@ -51,4 +58,9 @@ nav.navbar-transparent {
 
 /* Tipografia
 -----------------------------*/
-
+h1 {
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: white;
+}
