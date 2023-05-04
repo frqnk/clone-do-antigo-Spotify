@@ -1,6 +1,0 @@
-Media Queries
-https://getbootstrap.com.br/docs/4.1/layout/overview/#responsive-breakpoints
-
-
-Conversor Pixels 
-https://www.w3schools.com/tags/ref_pxtoemconversion.asp
