@@ -23,7 +23,8 @@ body {
 /* Barra de navegação
 -----------------------------*/
 nav.navbar-transparent {
-    padding: 15px 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: rgba(0, 0, 0, 0.6);
 }
 .navbar-light .navbar-nav .nav-link {
