@@ -50,13 +50,14 @@ nav.navbar-transparent {
 }
 .btn-custom {
     color: white;
-    border-radius: 500px;
     text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 500px;
+    margin: 20px 10px 0 10px;
     transition:
         background 0.4s,
         color 0.4s
     ;
-    padding: 10px 20px;
 }
 .btn-roxo {
     background: #7c26f8;
@@ -87,26 +88,25 @@ nav.navbar-transparent {
     color: #7c25f8;
 }
 .albuns {
-    padding: 10px 0;
+    padding: 15px 0;
 }
-
 
 /* Rodapé
 -----------------------------*/
-
 
 /* Tipografia
 -----------------------------*/
 h1 {
     font-weight: 900;
-    letter-spacing: -0.05em;
-    margin-bottom: 50px;
+    letter-spacing: -0.04em;
+    margin-bottom: 30px;
     color: white;
 }
 h2 {
     font-size: 3em;
     font-weight: 700;
     letter-spacing: -0.04em;
+    margin-bottom: 1rem;
 }
 h3 {
     font-size: 2em;
@@ -118,9 +118,8 @@ h3 {
 -----------------------------*/
 /* extra small */
 @media (max-width: 575.98px) {
-    .btn-custom {
-        margin: 10px 15px;
-        font-size: 1em;
+    h1 {
+        font-size: 3em;
     }
 }
 /* small */
@@ -128,19 +127,11 @@ h3 {
     h1 {
         font-size: 3em;
     }
-    .btn-custom {
-        margin: 10px 15px;
-        font-size: 1em;
-    }
 }
 /* medium */
 @media (min-width: 768px) and (max-width: 991.98px) {
     h1 {
         font-size: 4em;
-    }
-    .btn-custom {
-        margin: 15px 20px;
-        font-size: 2em;
     }
 }
 /* large */
@@ -148,18 +139,10 @@ h3 {
     h1 {
         font-size: 5em;
     }
-    .btn-custom {
-        margin: 15px 20px;
-        font-size: 2em;
-    }
 }
 /* extra large */
 @media (min-width: 1200px) {
     h1 {
-        font-size: 6em;
-    }
-    .btn-custom {
-        margin: 20px 30px;
-        font-size: 2em;
+        font-size: 5em;
     }
 }
