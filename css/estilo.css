@@ -78,8 +78,8 @@ nav.navbar-transparent {
 /* Estrutura conteúdos
 -----------------------------*/
 .caixa {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 #servicos {
     background: white;
@@ -87,8 +87,8 @@ nav.navbar-transparent {
 #servicos h2, h3 {
     color: #7c25f8;
 }
-.albuns {
-    padding: 15px 0;
+.albuns img {
+    padding: 15px;
 }
 
 /* Rodapé
