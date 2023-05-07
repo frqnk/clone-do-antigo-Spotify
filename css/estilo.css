@@ -93,25 +93,50 @@ h1 {
 
 /* Breakpoints responsivos
 -----------------------------*/
+/* extra small */
 @media (max-width: 575.98px) {
+    .btn-custom {
+        margin: 10px 15px;
+        font-size: 1em;
+    }
 }
+/* small */
 @media (min-width: 576px) and (max-width: 767.98px) {
     h1 {
         font-size: 3em;
     }
+    .btn-custom {
+        margin: 10px 15px;
+        font-size: 1em;
+    }
 }
+/* medium */
 @media (min-width: 768px) and (max-width: 991.98px) {
     h1 {
         font-size: 4em;
     }
+    .btn-custom {
+        margin: 15px 20px;
+        font-size: 2em;
+    }
 }
+/* large */
 @media (min-width: 992px) and (max-width: 1199.98px) {
     h1 {
         font-size: 5em;
     }
+    .btn-custom {
+        margin: 15px 20px;
+        font-size: 2em;
+    }
 }
+/* extra large */
 @media (min-width: 1200px) {
     h1 {
         font-size: 6em;
+    }
+    .btn-custom {
+        margin: 20px 30px;
+        font-size: 2em;
     }
 }
