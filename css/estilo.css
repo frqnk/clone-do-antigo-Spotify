@@ -87,7 +87,7 @@ nav.navbar-transparent {
 #servicos h2, h3 {
     color: #7c25f8;
 }
-.albuns img {
+.albuns div img {
     padding: 15px;
 }
 
@@ -120,6 +120,21 @@ h3 {
 @media (max-width: 575.98px) {
     h1 {
         font-size: 3em;
+    }
+    .albuns div img {
+        padding: 7.5px;
+    }
+    .albuns:nth-of-type(1) div img {
+        padding-top: 0;
+    }
+    .albuns:nth-of-type(2) div img {
+        padding-bottom: 15px;
+    }
+    .albuns div:nth-of-type(1) img {
+        padding-left: 15px;
+    }
+    .albuns div:nth-of-type(2) img {
+        padding-right: 15px;
     }
 }
 /* small */
