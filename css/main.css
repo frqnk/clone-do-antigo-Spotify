@@ -10,6 +10,7 @@ html,
 body,
 #home {
     height: 100%;
+    overflow-x: hidden;
 }
 body {
     background:
@@ -90,9 +91,47 @@ nav.navbar-transparent {
 .albuns div img {
     padding: 15px;
 }
+#recursos {
+    color: white;
+}
+#recursos h2 {
+    color: #9bf0e1;
+}
+#recursos h3 {
+    color: #9bf0e1;
+}
+.rodar {
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
 
 /* Rodapé
 -----------------------------*/
+footer {
+    background: black;
+    padding: 50px 0 20px 0;
+    position: relative;
+}
+footer h4 {
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+footer .navbar-nav a {
+    color: white;
+    font-size: 0.8em;
+}
+footer .navbar-nav a:hover {
+    color: #9bf0e1;
+    text-decoration: none;
+}
+footer ul {
+    list-style: none;
+}
+footer ul li {
+    float: right;
+    margin: 0 5px;
+}
 
 /* Tipografia
 -----------------------------*/
@@ -120,21 +159,6 @@ h3 {
 @media (max-width: 575.98px) {
     h1 {
         font-size: 3em;
-    }
-    .albuns div img {
-        padding: 7.5px;
-    }
-    .albuns:nth-of-type(1) div img {
-        padding-top: 0;
-    }
-    .albuns:nth-of-type(2) div img {
-        padding-bottom: 15px;
-    }
-    .albuns div:nth-of-type(1) img {
-        padding-left: 15px;
-    }
-    .albuns div:nth-of-type(2) img {
-        padding-right: 15px;
     }
 }
 /* small */
