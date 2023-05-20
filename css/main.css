@@ -101,7 +101,7 @@ figure {
     transform: rotate(5deg);
 }
 #celular .img-fluid {
-    filter: dropShadow(0 .5rem 1rem rgba(0, 0, 0, .15););
+    filter: dropShadow(0 .5rem 1rem rgba(0, 0, 0, .15));
     transform: rotate(5deg);
 }
 footer {
