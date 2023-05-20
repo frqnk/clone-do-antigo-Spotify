@@ -1,55 +1,56 @@
-/*
-*
-* Vamos fazer o estilo customizado aqui
-*
-*/
-
-/* Layout
------------------------------*/
-html,
-body,
-#home {
-    height: 100%;
-    overflow-x: hidden;
+h1 {
+    color: white;
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    margin-bottom: 30px;
+}
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+    margin-bottom: 1rem;
+}
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
 }
 body {
     background:
         url(../img/capa.png),
         url(../img/ruido.png),
-        linear-gradient(50deg, #ff4169, #7c26f8)
+        linear-gradient(45deg, #ff4169, #7c26f8)
     ;
     background-attachment: fixed;
 }
-
-/* Barra de navegação
------------------------------*/
-nav.navbar-transparent {
-    padding-top: 15px;
-    padding-bottom: 15px;
+nav {
     background-color: rgba(0, 0, 0, 0.6);
 }
-.navbar-light .navbar-nav .nav-link {
+nav .navbar-brand img {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    width: 132px;
+    height: 40px;
+}
+nav .nav-link {
     color: white;
 }
-.navbar-light .navbar-nav .nav-link:hover {
+nav .nav-link:hover {
     color: #9bf0e1;
 }
-.navbar-light .navbar-toggler {
-    color: rgba(0, 0, 0, 0.5);
-    border-color: rgba(255, 255, 255, 0.5);
-}
-.divisor {
+nav .divisor {
     width: 1px;
     background-color: white;
     margin: 12px 15px;
 }
-
-/* Capa
------------------------------*/
-.capa {
-    text-align: center;
+main .carousel-item {
+    transition: transform 0.6s ease-in-out;
 }
-.btn-custom {
+main .carousel-fade .active.carousel-item-start,
+main .carousel-fade .active.carousel-item-end {
+    transition: opacity .5s;
+}
+main .btn-custom {
     color: white;
     text-transform: uppercase;
     padding: 10px 20px;
@@ -60,53 +61,49 @@ nav.navbar-transparent {
         color 0.4s
     ;
 }
-.btn-roxo {
+main .btn-roxo {
     background: #7c26f8;
 }
-.btn-roxo:hover {
+main .btn-roxo:hover {
     background: #6207e3;
     color: white;
 }
-.btn-branco {
+main .btn-branco {
     outline: 2px solid white;
     outline-offset: -2px;
 }
-.btn-branco:hover {
+main .btn-branco:hover {
     background: white;
     color: black;
 }
-
-/* Estrutura conteúdos
------------------------------*/
-.caixa {
+section {
     padding-top: 15px;
     padding-bottom: 15px;
 }
-#servicos {
+figure {
+    margin: 0;
+}
+#o-que-tem {
     background: white;
 }
-#servicos h2, h3 {
+#o-que-tem h2,
+#o-que-tem h3 {
     color: #7c25f8;
 }
-.albuns div img {
-    padding: 15px;
-}
-#recursos {
+#facil {
     color: white;
 }
-#recursos h2 {
+#facil h2,
+#facil h3 {
     color: #9bf0e1;
 }
-#recursos h3 {
-    color: #9bf0e1;
+#celular {
+    transform: rotate(5deg);
 }
-.rodar {
-    transform: rotate(30deg);
-    padding-left: 80px;
+#celular .img-fluid {
+    filter: dropShadow(0 .5rem 1rem rgba(0, 0, 0, .15););
+    transform: rotate(5deg);
 }
-
-/* Rodapé
------------------------------*/
 footer {
     background: black;
     padding: 50px 0 20px 0;
@@ -132,29 +129,6 @@ footer ul li {
     float: right;
     margin: 0 5px;
 }
-
-/* Tipografia
------------------------------*/
-h1 {
-    font-weight: 900;
-    letter-spacing: -0.04em;
-    margin-bottom: 30px;
-    color: white;
-}
-h2 {
-    font-size: 3em;
-    font-weight: 700;
-    letter-spacing: -0.04em;
-    margin-bottom: 1rem;
-}
-h3 {
-    font-size: 2em;
-    font-weight: 700;
-    letter-spacing: -0.04em;
-}
-
-/* Breakpoints responsivos
------------------------------*/
 /* extra small */
 @media (max-width: 575.98px) {
     h1 {
