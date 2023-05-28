@@ -1,51 +1,53 @@
 <!DOCTYPE html>
-<html lang="pt-br" class="h-100 overflow-x-hidden">
+<html lang="pt-br" class="h-100">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/fontawesome.min.css">
+        <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css">
+        <link rel="stylesheet" href="bootstrap-5.3.0-alpha3-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
         <link rel="icon" href="img/favicon.ico">
         <title>
             Música para todos - Spotify
         </title>
     </head>
-    <body class="h-100">
-        <nav class="navbar navbar-expand-md fixed-top" data-bs-theme="dark">
+    <body class="h-100 text-light overflow-x-hidden">
+        <nav class="navbar navbar-expand-md fixed-top bg-black bg-opacity-50 shadow" data-bs-theme="dark">
             <div class="container">
                 <a class="navbar-brand" href="">
-                    <img src="img/spotify-logo.svg" alt="Spotify">
+                    <img class="my-2" src="img/spotify-logo.svg" alt="Spotify" width="132">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="navbar-toggler-icon">
+                    <i class="fas fa-bars text-light">
                     </i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="">
+                            <a class="nav-link text-reset" href="">
                                 Premium
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">
+                            <a class="nav-link text-reset" href="">
                                 Ajuda
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">
+                            <a class="nav-link text-reset" href="">
                                 Baixar
                             </a>
                         </li>
-                        <li class="nav-item divisor">
+                        <li class="nav-item divider my-2 mx-md-2 bg-light bg-opacity-25">
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">
+                            <a class="nav-link text-reset" href="">
                                 Inscrever-se
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">
+                            <a class="nav-link text-reset" href="">
                                 Entrar
                             </a>
                         </li>
@@ -61,28 +63,28 @@
                             <h1>
                                 Música para todos.
                             </h1>
-                            <a class="btn btn-lg btn-custom btn-roxo" href="">
+                            <a class="btn btn-primary rounded-pill lh-1 text-uppercase fw-bold" href="" role="button">
                                 Aproveite o Spotify Free
                             </a>
-                            <a class="btn btn-lg btn-custom btn-branco" href="">
+                            <a class="btn btn-outline-light border-2 rounded-pill lh-1 text-uppercase fw-bold" href="" role="button">
                                 Obter Spotify Premium
-                            </a>    
+                            </a>
                         </div>
                         <div class="carousel-item">
                             <h1>
                                 Premium para toda sua família.
                                 <br>
-                                Apenas R$ 26,90.
+                                Apenas R$ 0,00.
                             </h1>
-                            <a class="btn btn-lg btn-custom btn-roxo" href="">
+                            <a class="btn btn-primary rounded-pill lh-1 text-uppercase fw-bold" href="" role="button">
                                 Saiba mais
                             </a>
                         </div>
                         <div class="carousel-item">
                             <h1>
-                                Universitários têm 50% de desconto no Premium.
+                                Universitários têm 0% de desconto no Premium.
                             </h1>
-                            <a class="btn btn-lg btn-custom btn-roxo" href="">
+                            <a class="btn btn-primary rounded-pill lh-1 text-uppercase fw-bold" href="" role="button">
                                 Saiba mais
                             </a>
                         </div>
@@ -90,7 +92,7 @@
                             <h1>
                                 Use o Spotify no PlayStation<sup>®</sup> e no Xbox<sup>®</sup> One.
                             </h1>
-                            <a class="btn btn-lg btn-custom btn-roxo" href="">
+                            <a class="btn btn-primary rounded-pill lh-1 text-uppercase fw-bold" href="" role="button">
                                 Saiba mais
                             </a>
                         </div>
@@ -112,7 +114,7 @@
                 </div>
             </div>
         </main>
-        <section id="o-que-tem" class="shadow-sm">
+        <section id="o-que-tem" class="bg-light text-dark shadow-sm">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 col-lg-5 col-xl-6 align-self-center">
@@ -136,12 +138,12 @@
                     <div class="col">
                         <div class="d-flex flex-column justify-content-evenly align-content-evenly h-100">
                             <article>
-                                <h2>
+                                <h2 class="fw-bold fs-1 mb-3 mt-3 mt-md-0">
                                     O que o Spotify tem?
                                 </h2>
                             </article>
                             <article>
-                                <h3>
+                                <h3 class="fw-bold">
                                     Músicas
                                 </h3>
                                 <p>
@@ -150,7 +152,7 @@
                                 </p>
                             </article>
                             <article>
-                                <h3>
+                                <h3 class="fw-bold">
                                     Playlists
                                 </h3>
                                 <p>
@@ -158,7 +160,7 @@
                                 </p>
                             </article>
                             <article>
-                                <h3>
+                                <h3 class="fw-bold">
                                     Novos lançamentos
                                 </h3>
                                 <p>
@@ -176,12 +178,12 @@
                     <div class="col-md-5">
                         <div class="d-flex flex-column justify-content-evenly align-content-evenly h-100">
                             <article>
-                                <h2>
+                                <h2 class="fw-bold fs-1 mb-3">
                                     Fácil
                                 </h2>
                             </article>
                             <article>
-                                <h3>
+                                <h3 class="fw-bold">
                                     Buscar
                                 </h3>
                                 <p>
@@ -189,7 +191,7 @@
                                 </p>
                             </article>
                             <article>
-                                <h3>
+                                <h3 class="fw-bold">
                                     Navegar
                                 </h3>
                                 <p>
@@ -197,7 +199,7 @@
                                 </p>
                             </article>
                             <article>
-                                <h3>
+                                <h3 class="fw-bold">
                                     Descobrir
                                 </h3>
                                 <p>
@@ -208,15 +210,15 @@
                     </div>
                     <div class="col px-5 pt-4 pt-md-0">
                         <div id="celular" class="d-flex flex-row justify-content-evenly align-content-evenly flex-nowrap">
-                            <div class="row align-items-center">
+                            <div class="row align-items-center rotate-7deg">
                                 <figure class="col-lg-6 col-xxl-4">
-                                    <img class="img-fluid" src="img/celular1.png">
+                                    <img class="img-fluid img-shadow rotate-7deg" src="img/celular1.png">
                                 </figure>
                                 <figure class="d-none d-lg-block col-lg-6 col-xxl-4">
-                                    <img class="img-fluid" src="img/celular2.png">
+                                    <img class="img-fluid img-shadow rotate-7deg" src="img/celular2.png">
                                 </figure>
                                 <figure class="d-none d-xxl-block col-xxl-4">
-                                    <img class="img-fluid" src="img/celular3.png">
+                                    <img class="img-fluid img-shadow rotate-7deg" src="img/celular3.png">
                                 </figure>
                             </div>
                         </div>
@@ -224,101 +226,142 @@
                 </div>
             </div>
         </section>
-        <footer>
+        <footer class="position-relative bg-black">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-2">
-                        <img src="img/spotify-logo.svg" width="142">
+                    <div class="col-4 col-lg-2 order-lg-1 mb-5">
+                        <a href="">
+                            <img src="img/spotify-logo.svg" alt="Spotify" width="132">
+                        </a>
                     </div>
-                    <div class="col-md-2">
-                        <h4>
-                            Company
+                    <div class="col-8 col-lg-4 order-lg-5 mb-5">
+                        <ul class="nav flex-row justify-content-end flex-nowrap">
+                            <li class="nav-item">
+                                <a class="nav-link p-0 ms-2" href="">
+                                    <img src="img/social/facebook.png">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-0 ms-2" href="">
+                                    <img src="img/social/twitter.png">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link p-0 ms-2" href="">
+                                    <img src="img/social/instagram.png">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-2 order-lg-2 mb-5">
+                        <h4 class="text-uppercase fw-bold fs-small text-secondary my-2">
+                            Empresa
                         </h4>
-                        <ul class="navbar-nav">
-                            <li>
-                                <a href="">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link text-reset px-0" href="">
                                     Sobre
                                 </a>
                             </li>
-                            <li>
-                                <a href="">
+                            <li class="nav-item">
+                                <a class="nav-link text-reset px-0" href="">
                                     Empregos
                                 </a>
                             </li>
-                            <li>
-                                <a href="">
+                            <li class="nav-item">
+                                <a class="nav-link text-reset px-0" href="">
                                     Imprensa
                                 </a>
                             </li>
-                            <li>
-                                <a href="">
+                            <li class="nav-item">
+                                <a class="nav-link text-reset px-0" href="">
                                     Novidades
                                 </a>
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-2">
-                        <h4>
+                    <div class="col-sm-4 col-md-4 col-lg-2 order-lg-3 mb-5">
+                        <h4 class="text-uppercase fw-bold fs-small text-secondary my-2">
                             Comunidades
                         </h4>
-                        <ul class="navbar-nav">
-                            <li>
-                                <a href="">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link text-reset px-0" href="">
                                     Artistas
                                 </a>
                             </li>
-                            <li>
-                                <a href="">
+                            <li class="nav-item">
+                                <a class="nav-link text-reset px-0" href="">
                                     Desenvolvedores
                                 </a>
                             </li>
-                            <li>
-                                <a href="">
+                            <li class="nav-item">
+                                <a class="nav-link text-reset px-0" href="">
                                     Marcas
                                 </a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-reset px-0" href="">
+                                    Investidores
+                                </a>
+                            </li>
                         </ul>
                     </div>
-                    <div class="col-md-2">
-                        <h4>
+                    <div class="col-sm-4 col-md-4 col-lg-2 order-lg-4 mb-5">
+                        <h4 class="text-uppercase fw-bold fs-small text-secondary my-2">
                             Links úteis
                         </h4>
-                        <ul class="navbar-nav">
-                            <li>
-                                <a href="">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link text-reset px-0" href="">
                                     Ajuda
                                 </a>
                             </li>
-                            <li>
-                                <a href="">
-                                    Presentes
+                            <li class="nav-item">
+                                <a class="nav-link text-reset px-0" href="">
+                                    Presente
                                 </a>
                             </li>
-                            <li>
-                                <a href="">
-                                    Player da web
+                            <li class="nav-item">
+                                <a class="nav-link text-reset px-0" href="">
+                                    Player da Web
                                 </a>
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-4">
-                        <ul>
-                            <li>
-                                <a href="">
-                                    <img src="img/social/facebook.png">
+                </div>
+                <div class="row fs-small align-items-end">
+                    <div class="col-8">
+                        <ul class="nav flex-row justify-content-start align-content-bottom h-100">
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary px-2 py-0" href="">
+                                    Legal
                                 </a>
                             </li>
-                            <li>
-                                <a href="">
-                                    <img src="img/social/twitter.png">
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary px-2 py-0" href="">
+                                    Privacidade
                                 </a>
                             </li>
-                            <li>
-                                <a href="">
-                                    <img src="img/social/instagram.png">
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary px-2 py-0" href="">
+                                    Cookies
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary px-2 py-0" href="">
+                                    Sobre anúncios
                                 </a>
                             </li>
                         </ul>
+                    </div>
+                    <div class="col text-end text-secondary align-items-center">
+                        <p class="m-0">
+                            Brasil
+                            <img class="d-inline-block align-text-top" src="img/bandeira-do-Brasil.svg" width="24">
+                            <br>
+                            <span class="d-inline-block" style="transform: scaleX(-1);">©</span> 2000 Spotify
+                        </p>
                     </div>
                 </div>
             </div>

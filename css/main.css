@@ -1,20 +1,3 @@
-h1 {
-    color: white;
-    font-weight: 900;
-    letter-spacing: -0.04em;
-    margin-bottom: 30px;
-}
-h2 {
-    font-size: 3em;
-    font-weight: 700;
-    letter-spacing: -0.04em;
-    margin-bottom: 1rem;
-}
-h3 {
-    font-size: 2em;
-    font-weight: 700;
-    letter-spacing: -0.04em;
-}
 body {
     background:
         url(../img/capa.png),
@@ -23,58 +6,29 @@ body {
     ;
     background-attachment: fixed;
 }
-nav {
-    background-color: rgba(0, 0, 0, 0.6);
-}
-nav .navbar-brand img {
-    margin-top: 7px;
-    margin-bottom: 7px;
-    width: 132px;
-    height: 40px;
-}
-nav .nav-link {
-    color: white;
-}
-nav .nav-link:hover {
-    color: #9bf0e1;
-}
-nav .divisor {
-    width: 1px;
-    background-color: white;
-    margin: 12px 15px;
-}
-main .carousel-item {
-    transition: transform 0.6s ease-in-out;
-}
 main .carousel-fade .active.carousel-item-start,
 main .carousel-fade .active.carousel-item-end {
     transition: opacity .5s;
 }
-main .btn-custom {
-    color: white;
-    text-transform: uppercase;
-    padding: 10px 20px;
-    border-radius: 500px;
+main .carousel-item {
+    transition: transform 0.6s ease-in-out;
+}
+main h1 {
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    margin-bottom: 30px;
+}
+main .btn {
+    padding: 15px 46px;
     margin: 20px 10px 0 10px;
-    transition:
-        background 0.4s,
-        color 0.4s
-    ;
 }
-main .btn-roxo {
-    background: #7c26f8;
+main .btn-primary {
+    background-color: #7c26f8;
+    border-color: #7c26f8;
 }
-main .btn-roxo:hover {
-    background: #6207e3;
-    color: white;
-}
-main .btn-branco {
-    outline: 2px solid white;
-    outline-offset: -2px;
-}
-main .btn-branco:hover {
-    background: white;
-    color: black;
+main .btn-primary:hover {
+    background-color: #6207e3;
+    border-color: #6207e3;
 }
 section {
     padding-top: 15px;
@@ -83,79 +37,70 @@ section {
 figure {
     margin: 0;
 }
-#o-que-tem {
-    background: white;
-}
 #o-que-tem h2,
 #o-que-tem h3 {
-    color: #7c25f8;
+    color: #7c26f8;
 }
-#facil {
-    color: white;
-}
+.nav-link:hover,
 #facil h2,
 #facil h3 {
-    color: #9bf0e1;
-}
-#celular {
-    transform: rotate(5deg);
-}
-#celular .img-fluid {
-    filter: dropShadow(0 .5rem 1rem rgba(0, 0, 0, .15));
-    transform: rotate(5deg);
+    color: #9bf0e1 !important;
 }
 footer {
-    background: black;
-    padding: 50px 0 20px 0;
-    position: relative;
+    padding: 80px 0 50px 0;
 }
-footer h4 {
-    color: #919496;
-    font-size: 0.8em;
-    text-transform: uppercase;
+.rotate-7deg {
+    transform: rotate(7deg);
 }
-footer .navbar-nav a {
-    color: white;
-    font-size: 0.8em;
+.img-shadow {
+    filter: dropShadow(0 .5rem 1rem greenyellow);
 }
-footer .navbar-nav a:hover {
-    color: #9bf0e1;
-    text-decoration: none;
+.fs-small {
+    font-size: 0.875em;
 }
-footer ul {
-    list-style: none;
+.debug {
+    border: 2px dashed cyan;
+    outline: 2px dashed magenta;
 }
-footer ul li {
-    float: right;
-    margin: 0 5px;
-}
-/* extra small */
-@media (max-width: 575.98px) {
-    h1 {
+/* xs and down */
+@media (max-width: 575.98px) {}
+/* sm and up */
+@media (min-width: 576px) {}
+/* sm and down */
+@media (max-width: 767.98px) {
+    main h1 {
         font-size: 3em;
     }
-}
-/* small */
-@media (min-width: 576px) and (max-width: 767.98px) {
-    h1 {
-        font-size: 3em;
+    nav .divider {
+        width: auto;
+        height: 1px;
+        margin-right: 0;
+        margin-left: 0;
     }
 }
-/* medium */
-@media (min-width: 768px) and (max-width: 991.98px) {
-    h1 {
-        font-size: 4em;
+/* md and up */
+@media (min-width: 768px) {
+    main h1 {
+        font-size: 5em;
+    }
+    nav .divider {
+        width: 1px;
+        height: auto;
     }
 }
-/* large */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    h1 {
+/* md and down */
+@media (max-width: 991.98px) {}
+/* lg and up */
+@media (min-width: 992px) {
+    main h1 {
         font-size: 5em;
     }
 }
-/* extra large */
-@media (min-width: 1200px) {
-    h1 {
-        font-size: 5em;
-    }
-}
+/* lg and down */
+@media (max-width: 1199.98px) {}
+/* xl and up */
+@media (min-width: 1200px) {}
+/* xl and down */
+@media (max-width: 1399.98px) {}
+/* xxl and up */
+@media (min-width: 1400px) {}
